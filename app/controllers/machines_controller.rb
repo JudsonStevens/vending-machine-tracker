@@ -4,6 +4,5 @@ class MachinesController < ApplicationController
   end
 
   def show
-    @machine = Machine.find(params[:id])
   end
 end
